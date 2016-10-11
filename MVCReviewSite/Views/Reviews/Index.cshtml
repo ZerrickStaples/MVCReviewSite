@@ -1,0 +1,41 @@
+﻿<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+@model IEnumerable<MVCReviewSite.Models.Review>
+
+@{
+    ViewBag.Title = "Reviews";
+}
+
+<body id="reviewBody">
+    <h2>Reviews</h2>
+    @*Trying to add button for Create New review *@
+    <div> <a class="btn btn-danger" href="http://localhost:56186/Reviews/Create">Create New</a></div>
+
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="thumbnail">
+                <div class="caption" id="reviewNail">
+                    <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+                    <p>@Html.DisplayFor(modelItem => item.Content)</p>
+                    <p>@Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-danger" })</p>
+                </div>
+            </div>
+        </div>
+        @*@Html.DisplayFor(modelItem => item.Category.Name)
+
+
+            @Html.DisplayFor(modelItem => item.Content)
+
+            @Html.DisplayFor(modelItem => item.PublishDate)
+
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })*@
+
+    }
+
+</body>

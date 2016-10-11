@@ -1,0 +1,28 @@
+﻿<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+@{
+     ViewBag.Title = "Home Page";
+}
+
+@*Created Jumbotron*@
+<body id="homeIndexBody">
+<div class="container">
+    <div class="jumbotron">
+        <h1>The Information Center</h1>
+        <p>Home Page</p>
+    </div>
+</div>
+
+    @*created thumbnail that links to review*@
+<div class="row">
+    <div class="col-lg-4 col-md-6">
+        <div class="thumbnail" id="homeNail">
+            <h2>Review Section</h2>
+            <p>
+                Click below to go to our review section.
+            </p>
+            <p><a class="btn btn-primary" href="http://localhost:56186/Reviews/Index">GO</a></p>
+        </div>
+    </div>
+</div>
+</body>

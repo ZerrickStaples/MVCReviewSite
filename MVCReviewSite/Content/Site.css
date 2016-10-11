@@ -1,0 +1,65 @@
+﻿#reviewBody{
+    
+    /*Add background image to Reviews Index*/
+    background-image:url(Images/nebula-wallpaper1.jpg);
+    color:black;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+#reviewDetailsBody{
+    
+    /*customizing details page and text*/
+    background-image:url(Images/nebula-wallpapers-13.jpg);
+    color:black;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.jumbotron{
+    /*customizing jumbotron*/
+    margin-top:100px;
+    margin-left:0;
+    margin-right:0;
+    padding: 4px 7px 2px 4px;
+    background-image:url(Images/Hubble_Sees_a_Horsehead_of_a_Different_Color.jpg);
+    color:red;
+    font-family: 'Rammetto One', cursive;
+}
+
+#reviewNail{
+
+    /*customizing thumbnail for review*/
+    background-image:url(Images/Veil_Nebula_-_NGC6960.jpg);
+    color:white;
+    font: bold italic 15px;
+}
+
+#reviewDetailNail{
+    background-image:url(Images/ngc2244NB03.jpg);
+    color:white;
+}
+
+#homeIndexBody {
+    background-image: url('Images/Comets_Kick_up_Dust_in_Helix_Nebula_(PIA09178).jpg');
+    color: lightpink;
+}
+
+#homeNail {
+    color:red;
+    background-image:url('Images/Hubble_Sees_a_Horsehead_of_a_Different_Color.jpg');
+}
+
+/*customizing navbar*/
+.navbar {
+    background-color:darkslategrey;
+    color:coral;
+    font-family:Ebrima;
+}
+    .navbar-left{
+     margin-left:400px;
+    }
+
+#searchBar{
+    margin-top:10px;
+}
