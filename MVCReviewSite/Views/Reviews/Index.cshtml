@@ -20,7 +20,7 @@
             <div class="thumbnail">
                 <div class="caption" id="reviewNail">
                     <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-                    <p>@Html.DisplayFor(modelItem => item.Content)</p>
+                    <p>@Html.DisplayFor(modelItem => item.PublishDate)</p>
                     <p>@Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-danger" })</p>
                 </div>
             </div>
